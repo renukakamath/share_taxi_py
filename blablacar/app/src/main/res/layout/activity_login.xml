@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+
+        android:src="@drawable/login"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="22dp" />
+
+    <!-- Login Title -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Username EditText -->
+    <EditText
+        android:id="@+id/etuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:textColor="@color/black"
+        android:textColorHint="#878787"
+        android:backgroundTint="@color/white"
+        android:padding="12dp"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:textColor="@color/black"
+        android:textColorHint="#878787"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="#fff"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+
+        android:paddingVertical="14dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Sign Up and Driver Sign Up Options -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Sign Up Text -->
+        <TextView
+            android:id="@+id/tvtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? "
+            android:textColor="#fff"
+
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Driver Sign Up Text -->
+        <TextView
+            android:id="@+id/delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DRIVER SIGN UP"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

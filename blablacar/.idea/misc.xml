@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/drawable/square.xml" value="0.1275" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/Mechanicregister.xml" value="0.1" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_addcar.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_addplace.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_book_now.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_chat_here.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_chat_here1.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_ipsettings.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_login.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_main.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_mechanicreg.xml" value="0.1" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_mechanicregister.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_otp.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_search_request.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_staffhome.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_student_home.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_userhome.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_userregistration.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_userrequest.xml" value="0.1" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_userviewrequest.xml" value="0.25" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_view_my_qr.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/activity_viewuser.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/customlist_chat.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/customlist_chat1.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/custtext.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/blablacar/app/src/main/res/layout/scanqr.xml" value="0.19583333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

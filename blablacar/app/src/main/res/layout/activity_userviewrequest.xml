@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Userviewrequest">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Search Place"
+
+
+        android:textStyle="bold"
+        android:textColor="#0E0D0D"
+        android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/ne1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:ems="10"
+                android:hint="enter your From Place"
+
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:textColorHint="#878787" />
+
+            <EditText
+                android:id="@+id/ne2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:ems="10"
+                android:hint="enter your To Place"
+
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#000"
+                android:textColorHint="#878787" />
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+android:background="#ffff"
+                android:layout_marginBottom="10dp"
+
+                android:layout_marginTop="10dp"
+
+                />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Car" />
+
+
+
+    </RadioGroup>
+
+
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:background="#131313"
+                android:text="ADD"
+                android:textColor="#FFFFFF" />
+
+
+
+
+
+            <ListView
+                android:id="@+id/lvview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
